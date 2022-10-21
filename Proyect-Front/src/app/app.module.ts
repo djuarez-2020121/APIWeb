@@ -12,13 +12,15 @@ import { ShowComponent } from './Components/show/show.component';
 import { AddEditComponent } from './Components/add-edit/add-edit.component';
 
 import { EmpresaServiceService } from './Services/empresa-service.service';
+import { ProductosComponent } from './Components/productos/productos.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     EmpresaComponent,
     ShowComponent,
-    AddEditComponent
+    AddEditComponent,
+    ProductosComponent
   ],
   imports: [
     BrowserModule,
